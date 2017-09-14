@@ -1,0 +1,1 @@
+sudo avrdude -p m644 -c usbasp -P usb -U flash:w:blink.hex:i
